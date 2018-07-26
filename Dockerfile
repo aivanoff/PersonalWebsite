@@ -1,12 +1,11 @@
-FROM ubuntu:14.04
-Run apt-get update && apt-get -y install nodejs 
-Run apt-get -y install npm
+FROM node:8
 
-Run npm install mongodb \
-http \
-express \
-body-parser
+# Install app dependencies
+COPY server/package.json ./
+
+RUN npm install
+ 
 Add server/ /server/
-Add nodeStartup.sh /nodeStartup.sh
-RUN chmod +x /nodeStartup.sh
-ENTRYPOINT ./nodeStartup.sh && ./bin/bash
+
+EXPOSE 8080
+CMD [ "npm", "start" ]

@@ -7,16 +7,12 @@ process.on('uncaughtException', function (err) {
   console.log('Caught exception: ' + err);
 });
 "use strict";
-var http = require('http');
 var express = require('express'); //routing
 var app = express();
 var path = require('path');
-var bodyParser = require('body-parser');
 
-var PORT=8080; 
 
-app.use( bodyParser.json() );       // to support JSON-encoded bodies
-app.use( bodyParser.text() );       // to support JSON-encoded bodies
+var PORT=process.env.PORT || 8080; 
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
