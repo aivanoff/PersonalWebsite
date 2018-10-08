@@ -7,62 +7,122 @@
     <link href="css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Dekko" rel="stylesheet">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
     <!--- JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div id="mainPage" class="ui container basic segment " >
-    <h1 class="header inverted thin " id="header">Luc Olsthoorn</h1> 
-    <img class="ui medium circular image centered" src="./img/Profpic.jpg">
-  </div>
-  <div style="background-color:white; width:100%; padding:5%;">
-    <div class="ui horizontal divider">
-      A little bit about me
-    </div>
-    <div id="mainText">
-      <i>
-    I like to design, build, and deploy websites. I also like helping people do it themselves. I pride myself in good code design, version control, continuous integration and agile practices. This manifests itself in my work and personal projects, including this website. <br/><br/>
-  I grew up in South Florida, and currently reside in Gainesville Florida where I am pursuing a major in Computer Science, with a minor in Business. I am often in Berkeley california, where I stayed during my summer internships at Sandia.
-<br/><br/>
-For fun I enjoy travelling, sailing and djing 
+	<div id="mainPage" class="ui container basic segment">
+		<h1 class="header inverted thin" id="header"> Alexander Ivanoff </h1> 
+		<div id="mainText">
+			<img class="ui large circular image left" src="./img/Alexander 2.jpg" / alt="">
+			<div id = "aboutMe"> I'm a Senior at UC Berkeley with a love of data, analytics and statistical modeling. I’ve worked on numerous exciting projects with groups such as IBM Watson, the Berkeley Division of Data Sciences and 
+				<br/><br/>
+
+				For fun I enjoy Running, Yoga, Mixing Music and reading the New Yorker
+				</div>
+			</div>
+		</div>
+
+	<div id="experience" class="ui text container"> 
+		<b> Berkeley Division of Data Sciences </b>
+		<div id="title"> Student Lead </div>
+		<div id="subText">
+		<a href="https://data.berkeley.edu/education/modules"> <u> Modules </u> </a> - In the summer of 2015, I analyzed ancient sumerian texts using modern NLP tools with another student researcher for a Near Eastern Studies professor. 
+			That professor later used our jupyter notebooks to show his students how they could use data science to enhance their understanding of ancient myths. This inspired the DS module program, which pairs a team of student researchers with a professor, 
+			who is interested in teaching their students how to use Data Science in their class.
+			By teaching computational and analytic thinking in the context of a non-technical field, students can see how powerful data science tools can be applied to their interests. Students who have taken modules say they feel less intimidated by technical coursework and as a result often go on to take multiple technical courses.
+			Since that summer, Modules have grown organically with student support to now impact over one thousand students per semester, making it the quickest growing educational program in Berkeley's history.
+		<br/> 
+		You can find many of the full lessons here at the DS Module <a href = https://github.com/ds-modules> github </a>.
+		<br/><br/>
+		
+		<a href="https://data.berkeley.edu/about/data-science-nexus"><u> Nexus </u></a> - To expand the Division's offerings and presence on campus, 
+			I connected the division of data sciences with student groups and the UC Library. Through talks over the course of a semester,
+			we were able to begin the Data Science Nexus as a central location for students who are interested in getting involved with Data Science on campus.
+		<br/><br/>	
+			
+		<u> Outreach </u> - I first joined the Berkeley Data Science Education Program as a member of the Outreach team in early 2015. On the team,
+		we worked to understand the campus culture with regards to data science as well as plan the enrollment goals for upcoming data science courses.
+			</div>
+		</div> 
+		
+	
+	<div id="experience" class="ui text container"> 
+		<!<img class="ui small circular image" src = "./img/watson.png" / alt = ""> 
+		<b> IBM Extreme Blue </b>
+		<div id="title"> Data Science Intern for the Watson Health <a href = https://www.medtronicdiabetes.com/products/sugar.iq-diabetes-assistant> Sugar.IQ </a> mobile app
+			</div>
+		<div id="subText">
+			<a href="http://www-01.ibm.com/employment/us/extremeblue/"> <u> The Program </u> </a> - The Extreme Blue program brings together a team of 3 technical students with an MBA to design, build and present about a project sourced from IBM over a 12 week summer internship.
+			<br/><br/>
+			<u> My Role </u> - As the Data Science Intern, I was tasked with discovering new insights (messages that tell user's how they process blood sugar) as well as adding value however else I could find a way to. 
+			Although the team knew I'm primarily a data scientist, I was unable to access any user, patient or relevant data due to privacy laws and so I had to try to deliver value in new and creative ways.
+			To develop new insights for users, I interviewed people with diabetes to learn about how they managed their condition, what they worried about in their daily lives and how they'd like an app to help them.
+			After developing new insights, I developed data intake methods in <b> java </b> that would pull data from a user's apple healthkit and enter it into a database for analytics.
+			I also researched and built tools in <b> python </b> that take in a user's data in real time and use <b> machine learning </b> techniques to tell the user the most likely causes of a low or high blood sugar event based on their own historic data.
+			<br/><br/>
+			<u> The Team </u> - In addition to building a functioning app, the team as a whole had collective responsibilities. 
+			Primarily, we had to find a way for us to innovatively add value to Watson Health. We had many heated design-thinking workshops, in which we discussed the UI/UX of the app, 
+			what we can reasonably accomplish in just 5 sprints and what we all wanted to get out of the experience.
+			We also set weekly sprint goals, alternated as scrum master, wrote a <a href = "https://ibmextremeblue.tumblr.com/post/175009928070/meet-the-agave-team"> blog post </a> and refined a presentation that we delivered weekly to executives. 
+			</div>
+		</div> 
+	
+	<div id="experience" class="ui text container">
+		<!<img class = "ui small circular image" src = "./img/inovalon.png" / alt ="">
+		<b> Inovalon Inc. </b>
+		<div id="title"> Innovation Intern
+			</div>
+		<div id="subText">
+			<u> NLP Toolkit </u> - 
+			By leveraging our strategic data assets, I developed Machine Learning and Natural Language processing tools that can process medical records by identifying key terms such as condition codes, their contexts and significance to a patient. 
+			<br/><br/>
+			<u> EMR De-Identifier </u> - 
+			I composed scripts that can de-identify medical records and join disparate data sources into a single source of truth that contains all of a patient's medical information, which can be used to make inferences about trends in patient care, compliance, and community health.
+			<br/><br/>
+			<u> Team Resources </u> - 
+			I created several resources that improved the innovation team's functionality. One of these is a SharePoint team site that accurately reflects the team/product structure and supports collaborative work between departments of the company. 
+			The other was a retrospective analysis of internal suggestions for company improvements as well as a tool that can sort and show trends in future ideas for innovation. 
+			</div>
+		</div> 
+			
+	<div class="ui horizontal divider">
+		Here's some of my links
+		</div>
+	   
+	<div class="ui center aligned basic segment">
+
+		<a href="https://soundcloud.com/alexander-ivanoff">
+			<i class="ui  white soundcloud icon big"  id="soundCloudLink" ></i>
+		</a>
+		<a href="https://github.com/aivanoff">
+			<i  id="githubLink" class="ui  white github icon big"></i>
+		</a>
+		<a  href="https://docs.google.com/document/d/1ikreSF3k7POP0v9VGP2VZl9RrG5EDATJDnZj1Eb-h_s/export?format=pdf" >
+			<i  id="resumeLink" class="ui  white file text outline icon big"></i>
+		</a>
+		<a  href="https://www.linkedin.com/in/alexanderivanoff">
+			<i  id="linkedinLink"class="ui  white linkedin icon big"></i>
+		</a>
+		<a href="mailto:me@alexanderivanoff.com?Subject=I%20want%20to%20hire%20you">
+			<i id="mailLink" class="ui  white mail outline icon big"></i>
+		</a>  
+
+		</div>
+	
+
+	<div id ="footer" class="container basic segment ui">
+	  <h5 class="ui  header center aligned" style="color:white;">Made with<a class="ui red circular label">Love</a> by  <a href="http://www.lucolsthoorn.com">Luc Olsthoorn</a></h5>
+	  
+	</div>
 
 
-</i>
+	<!--JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.js"></script>
+	<script src="js/main.js"></script>
 
-  </div>
-  <div class="ui horizontal divider">
-      Here are some links
-    </div>
-  <div class="ui center aligned basic segment">
-
-    <a href="https://soundcloud.com/olstenhousen">
-        <i class="ui  white soundcloud icon big"  id="soundCloudLink" ></i>
-    </a>
-    <a href="https://github.com/Luc-Olsthoorn">
-        <i  id="githubLink" class="ui  white github icon big"></i>
-    </a>
-    <a  href="https://docs.google.com/document/d/1gk2ZTqwowVei5fepCZEEoMToVgA6etjq4bZdtOKMRTk/export?format=pdf" >
-        <i  id="resumeLink" class="ui  white file text outline icon big"></i>
-    </a>
-    <a  href="https://www.linkedin.com/in/luc-olsthoorn-815074106">
-        <i  id="linkedinLink"class="ui  white linkedin icon big"></i>
-    </a>
-    <a href="mailto:me@lucolsthoorn.com?Subject=I%20want%20to%20hire%20you">
-        <i id="mailLink" class="ui  white mail outline icon big"></i>
-    </a>  
-
-  </div>
-</div>
-<div id ="footer" class="container basic segment ui  ">
-  <h5 class="ui  header center aligned" style="color:white;">Made with<a class="ui red circular label">Love</a> by  <a href="http://www.lucolsthoorn.com">Luc Olsthoorn</a></h5>
-  
-</div>
-
-
-<!--JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.js"></script>
-<script src="js/main.js"></script>
-
-</body>
+	</body>
 </html>
